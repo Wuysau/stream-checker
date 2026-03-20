@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+env/
+ENV/
+
+# Conda env folders if accidentally created inside project
+conda-env/
+.python-version
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Outputs
+data/output/
+
+# Logs
+*.log
